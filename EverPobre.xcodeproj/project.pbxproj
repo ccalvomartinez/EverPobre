@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830C2EA61EA536BD006AE5D6 /* CCMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C2EA51EA536BD006AE5D6 /* CCMPhoto.m */; };
+		83D094281E9E909E000C4A8E /* _CCMNamedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0941D1E9E909E000C4A8E /* _CCMNamedEntity.m */; };
+		83D094291E9E909E000C4A8E /* _CCMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0941F1E9E909E000C4A8E /* _CCMNote.m */; };
+		83D0942A1E9E909E000C4A8E /* _CCMNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D094211E9E909E000C4A8E /* _CCMNotebook.m */; };
+		83D0942B1E9E909E000C4A8E /* CCMNamedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D094231E9E909E000C4A8E /* CCMNamedEntity.m */; };
+		83D0942C1E9E909E000C4A8E /* CCMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D094251E9E909E000C4A8E /* CCMNote.m */; };
+		83D0942D1E9E909E000C4A8E /* CCMNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D094271E9E909E000C4A8E /* CCMNotebook.m */; };
+		83D094301E9E99EE000C4A8E /* _CCMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0942F1E9E99EE000C4A8E /* _CCMPhoto.m */; };
+		DF5EF9441E9CD64E00BC8607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF9431E9CD64E00BC8607 /* main.m */; };
+		DF5EF9471E9CD64E00BC8607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF9461E9CD64E00BC8607 /* AppDelegate.m */; };
+		DF5EF94F1E9CD64E00BC8607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5EF94E1E9CD64E00BC8607 /* Assets.xcassets */; };
+		DF5EF9521E9CD64E00BC8607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5EF9501E9CD64E00BC8607 /* LaunchScreen.storyboard */; };
+		DF5EF95D1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF95C1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m */; };
+		DF5EF9601E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF95E1E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830C2EA41EA536BD006AE5D6 /* CCMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPhoto.h; sourceTree = "<group>"; };
+		830C2EA51EA536BD006AE5D6 /* CCMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPhoto.m; sourceTree = "<group>"; };
+		83D0941C1E9E909E000C4A8E /* _CCMNamedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMNamedEntity.h; sourceTree = "<group>"; };
+		83D0941D1E9E909E000C4A8E /* _CCMNamedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CCMNamedEntity.m; sourceTree = "<group>"; };
+		83D0941E1E9E909E000C4A8E /* _CCMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMNote.h; sourceTree = "<group>"; };
+		83D0941F1E9E909E000C4A8E /* _CCMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CCMNote.m; sourceTree = "<group>"; };
+		83D094201E9E909E000C4A8E /* _CCMNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMNotebook.h; sourceTree = "<group>"; };
+		83D094211E9E909E000C4A8E /* _CCMNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CCMNotebook.m; sourceTree = "<group>"; };
+		83D094221E9E909E000C4A8E /* CCMNamedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMNamedEntity.h; sourceTree = "<group>"; };
+		83D094231E9E909E000C4A8E /* CCMNamedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMNamedEntity.m; sourceTree = "<group>"; };
+		83D094241E9E909E000C4A8E /* CCMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMNote.h; sourceTree = "<group>"; };
+		83D094251E9E909E000C4A8E /* CCMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMNote.m; sourceTree = "<group>"; };
+		83D094261E9E909E000C4A8E /* CCMNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMNotebook.h; sourceTree = "<group>"; };
+		83D094271E9E909E000C4A8E /* CCMNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMNotebook.m; sourceTree = "<group>"; };
+		83D0942E1E9E99EE000C4A8E /* _CCMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMPhoto.h; sourceTree = "<group>"; };
+		83D0942F1E9E99EE000C4A8E /* _CCMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CCMPhoto.m; sourceTree = "<group>"; };
+		DF5EF93F1E9CD64D00BC8607 /* EverPobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverPobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5EF9431E9CD64E00BC8607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5EF9451E9CD64E00BC8607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF5EF9461E9CD64E00BC8607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF5EF94E1E9CD64E00BC8607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5EF9511E9CD64E00BC8607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5EF9531E9CD64E00BC8607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5EF95B1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTSimpleCoreDataStack.h; sourceTree = "<group>"; };
+		DF5EF95C1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTSimpleCoreDataStack.m; sourceTree = "<group>"; };
+		DF5EF95F1E9CDB0900BC8607 /* EverPobreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EverPobreModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5EF93C1E9CD64D00BC8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5EF9361E9CD64D00BC8607 = {
+			isa = PBXGroup;
+			children = (
+				DF5EF9411E9CD64D00BC8607 /* EverPobre */,
+				DF5EF9401E9CD64D00BC8607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5EF9401E9CD64D00BC8607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EF93F1E9CD64D00BC8607 /* EverPobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5EF9411E9CD64D00BC8607 /* EverPobre */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EF95A1E9CD67200BC8607 /* Models */,
+				DF5EF9451E9CD64E00BC8607 /* AppDelegate.h */,
+				DF5EF9461E9CD64E00BC8607 /* AppDelegate.m */,
+				DF5EF94E1E9CD64E00BC8607 /* Assets.xcassets */,
+				DF5EF9501E9CD64E00BC8607 /* LaunchScreen.storyboard */,
+				DF5EF9531E9CD64E00BC8607 /* Info.plist */,
+				DF5EF9421E9CD64E00BC8607 /* Supporting Files */,
+			);
+			path = EverPobre;
+			sourceTree = "<group>";
+		};
+		DF5EF9421E9CD64E00BC8607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EF9431E9CD64E00BC8607 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF5EF95A1E9CD67200BC8607 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				830C2EA41EA536BD006AE5D6 /* CCMPhoto.h */,
+				830C2EA51EA536BD006AE5D6 /* CCMPhoto.m */,
+				83D0942E1E9E99EE000C4A8E /* _CCMPhoto.h */,
+				83D0942F1E9E99EE000C4A8E /* _CCMPhoto.m */,
+				83D0941C1E9E909E000C4A8E /* _CCMNamedEntity.h */,
+				83D0941D1E9E909E000C4A8E /* _CCMNamedEntity.m */,
+				83D0941E1E9E909E000C4A8E /* _CCMNote.h */,
+				83D0941F1E9E909E000C4A8E /* _CCMNote.m */,
+				83D094201E9E909E000C4A8E /* _CCMNotebook.h */,
+				83D094211E9E909E000C4A8E /* _CCMNotebook.m */,
+				83D094221E9E909E000C4A8E /* CCMNamedEntity.h */,
+				83D094231E9E909E000C4A8E /* CCMNamedEntity.m */,
+				83D094241E9E909E000C4A8E /* CCMNote.h */,
+				83D094251E9E909E000C4A8E /* CCMNote.m */,
+				83D094261E9E909E000C4A8E /* CCMNotebook.h */,
+				83D094271E9E909E000C4A8E /* CCMNotebook.m */,
+				DF5EF95B1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.h */,
+				DF5EF95C1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m */,
+				DF5EF95E1E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5EF93E1E9CD64D00BC8607 /* EverPobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5EF9561E9CD64E00BC8607 /* Build configuration list for PBXNativeTarget "EverPobre" */;
+			buildPhases = (
+				DF5EF93B1E9CD64D00BC8607 /* Sources */,
+				DF5EF93C1E9CD64D00BC8607 /* Frameworks */,
+				DF5EF93D1E9CD64D00BC8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverPobre;
+			productName = EverPobre;
+			productReference = DF5EF93F1E9CD64D00BC8607 /* EverPobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5EF9371E9CD64D00BC8607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user126733;
+				TargetAttributes = {
+					DF5EF93E1E9CD64D00BC8607 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF5EF93A1E9CD64D00BC8607 /* Build configuration list for PBXProject "EverPobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5EF9361E9CD64D00BC8607;
+			productRefGroup = DF5EF9401E9CD64D00BC8607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5EF93E1E9CD64D00BC8607 /* EverPobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5EF93D1E9CD64D00BC8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EF9521E9CD64E00BC8607 /* LaunchScreen.storyboard in Resources */,
+				DF5EF94F1E9CD64E00BC8607 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5EF93B1E9CD64D00BC8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0942B1E9E909E000C4A8E /* CCMNamedEntity.m in Sources */,
+				DF5EF9471E9CD64E00BC8607 /* AppDelegate.m in Sources */,
+				83D094301E9E99EE000C4A8E /* _CCMPhoto.m in Sources */,
+				83D094281E9E909E000C4A8E /* _CCMNamedEntity.m in Sources */,
+				83D0942C1E9E909E000C4A8E /* CCMNote.m in Sources */,
+				83D0942D1E9E909E000C4A8E /* CCMNotebook.m in Sources */,
+				830C2EA61EA536BD006AE5D6 /* CCMPhoto.m in Sources */,
+				83D0942A1E9E909E000C4A8E /* _CCMNotebook.m in Sources */,
+				DF5EF9441E9CD64E00BC8607 /* main.m in Sources */,
+				DF5EF9601E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld in Sources */,
+				DF5EF95D1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m in Sources */,
+				83D094291E9E909E000C4A8E /* _CCMNote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF5EF9501E9CD64E00BC8607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5EF9511E9CD64E00BC8607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5EF9541E9CD64E00BC8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF5EF9551E9CD64E00BC8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5EF9571E9CD64E00BC8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCM.EverPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF5EF9581E9CD64E00BC8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCM.EverPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5EF93A1E9CD64D00BC8607 /* Build configuration list for PBXProject "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EF9541E9CD64E00BC8607 /* Debug */,
+				DF5EF9551E9CD64E00BC8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5EF9561E9CD64E00BC8607 /* Build configuration list for PBXNativeTarget "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EF9571E9CD64E00BC8607 /* Debug */,
+				DF5EF9581E9CD64E00BC8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF5EF95E1E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF5EF95F1E9CDB0900BC8607 /* EverPobreModel.xcdatamodel */,
+			);
+			currentVersion = DF5EF95F1E9CDB0900BC8607 /* EverPobreModel.xcdatamodel */;
+			path = EverPobreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF5EF9371E9CD64D00BC8607 /* Project object */;
+}
