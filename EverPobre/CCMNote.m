@@ -22,4 +22,8 @@ CCMNote *note = [NSEntityDescription insertNewObjectForEntityForName:@"Note"
     
     return note;
 }
++(NSArray *) observableKeyNames{
+    return @[@"creationDate",@"name",@"notebook",@"photo"];
+}
+
 @end

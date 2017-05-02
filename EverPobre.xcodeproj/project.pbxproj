@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		830C2EA61EA536BD006AE5D6 /* CCMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C2EA51EA536BD006AE5D6 /* CCMPhoto.m */; };
+		8357B70E1EB8A97B00499B89 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357B70D1EB8A97B00499B89 /* AGTCoreDataTableViewController.m */; };
+		8357B7121EB8A9BF00499B89 /* CCMNotebooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357B7111EB8A9BF00499B89 /* CCMNotebooksViewController.m */; };
+		8357B7161EB8F52700499B89 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357B7151EB8F52700499B89 /* UIViewController+Navigation.m */; };
+		8357B7191EB8F6FA00499B89 /* CCMNotebookCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8357B7181EB8F6FA00499B89 /* CCMNotebookCellView.xib */; };
+		8357B71C1EB8F92600499B89 /* CCMNotebookCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357B71B1EB8F92600499B89 /* CCMNotebookCellView.m */; };
 		83D094281E9E909E000C4A8E /* _CCMNamedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0941D1E9E909E000C4A8E /* _CCMNamedEntity.m */; };
 		83D094291E9E909E000C4A8E /* _CCMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0941F1E9E909E000C4A8E /* _CCMNote.m */; };
 		83D0942A1E9E909E000C4A8E /* _CCMNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D094211E9E909E000C4A8E /* _CCMNotebook.m */; };
@@ -26,6 +31,17 @@
 /* Begin PBXFileReference section */
 		830C2EA41EA536BD006AE5D6 /* CCMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPhoto.h; sourceTree = "<group>"; };
 		830C2EA51EA536BD006AE5D6 /* CCMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPhoto.m; sourceTree = "<group>"; };
+		8357B7081EB8973C00499B89 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		8357B7091EB8982000499B89 /* EverPobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EverPobre-Prefix.pch"; sourceTree = "<group>"; };
+		8357B70C1EB8A97B00499B89 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		8357B70D1EB8A97B00499B89 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		8357B7101EB8A9BF00499B89 /* CCMNotebooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMNotebooksViewController.h; sourceTree = "<group>"; };
+		8357B7111EB8A9BF00499B89 /* CCMNotebooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMNotebooksViewController.m; sourceTree = "<group>"; };
+		8357B7141EB8F52700499B89 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		8357B7151EB8F52700499B89 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		8357B7181EB8F6FA00499B89 /* CCMNotebookCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCMNotebookCellView.xib; sourceTree = "<group>"; };
+		8357B71A1EB8F92600499B89 /* CCMNotebookCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMNotebookCellView.h; sourceTree = "<group>"; };
+		8357B71B1EB8F92600499B89 /* CCMNotebookCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMNotebookCellView.m; sourceTree = "<group>"; };
 		83D0941C1E9E909E000C4A8E /* _CCMNamedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMNamedEntity.h; sourceTree = "<group>"; };
 		83D0941D1E9E909E000C4A8E /* _CCMNamedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CCMNamedEntity.m; sourceTree = "<group>"; };
 		83D0941E1E9E909E000C4A8E /* _CCMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CCMNote.h; sourceTree = "<group>"; };
@@ -63,6 +79,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8357B70F1EB8A98200499B89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8357B70C1EB8A97B00499B89 /* AGTCoreDataTableViewController.h */,
+				8357B70D1EB8A97B00499B89 /* AGTCoreDataTableViewController.m */,
+				8357B7101EB8A9BF00499B89 /* CCMNotebooksViewController.h */,
+				8357B7111EB8A9BF00499B89 /* CCMNotebooksViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8357B7131EB8F4E700499B89 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8357B7141EB8F52700499B89 /* UIViewController+Navigation.h */,
+				8357B7151EB8F52700499B89 /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8357B7171EB8F6A300499B89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8357B7181EB8F6FA00499B89 /* CCMNotebookCellView.xib */,
+				8357B71A1EB8F92600499B89 /* CCMNotebookCellView.h */,
+				8357B71B1EB8F92600499B89 /* CCMNotebookCellView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		DF5EF9361E9CD64D00BC8607 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +128,9 @@
 		DF5EF9411E9CD64D00BC8607 /* EverPobre */ = {
 			isa = PBXGroup;
 			children = (
+				8357B7171EB8F6A300499B89 /* Views */,
+				8357B7131EB8F4E700499B89 /* Categories */,
+				8357B70F1EB8A98200499B89 /* Controllers */,
 				DF5EF95A1E9CD67200BC8607 /* Models */,
 				DF5EF9451E9CD64E00BC8607 /* AppDelegate.h */,
 				DF5EF9461E9CD64E00BC8607 /* AppDelegate.m */,
@@ -89,6 +138,7 @@
 				DF5EF9501E9CD64E00BC8607 /* LaunchScreen.storyboard */,
 				DF5EF9531E9CD64E00BC8607 /* Info.plist */,
 				DF5EF9421E9CD64E00BC8607 /* Supporting Files */,
+				8357B7081EB8973C00499B89 /* Settings.h */,
 			);
 			path = EverPobre;
 			sourceTree = "<group>";
@@ -97,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DF5EF9431E9CD64E00BC8607 /* main.m */,
+				8357B7091EB8982000499B89 /* EverPobre-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,6 +238,7 @@
 			files = (
 				DF5EF9521E9CD64E00BC8607 /* LaunchScreen.storyboard in Resources */,
 				DF5EF94F1E9CD64E00BC8607 /* Assets.xcassets in Resources */,
+				8357B7191EB8F6FA00499B89 /* CCMNotebookCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,15 +252,19 @@
 				83D0942B1E9E909E000C4A8E /* CCMNamedEntity.m in Sources */,
 				DF5EF9471E9CD64E00BC8607 /* AppDelegate.m in Sources */,
 				83D094301E9E99EE000C4A8E /* _CCMPhoto.m in Sources */,
+				8357B7121EB8A9BF00499B89 /* CCMNotebooksViewController.m in Sources */,
 				83D094281E9E909E000C4A8E /* _CCMNamedEntity.m in Sources */,
 				83D0942C1E9E909E000C4A8E /* CCMNote.m in Sources */,
+				8357B7161EB8F52700499B89 /* UIViewController+Navigation.m in Sources */,
 				83D0942D1E9E909E000C4A8E /* CCMNotebook.m in Sources */,
 				830C2EA61EA536BD006AE5D6 /* CCMPhoto.m in Sources */,
 				83D0942A1E9E909E000C4A8E /* _CCMNotebook.m in Sources */,
+				8357B70E1EB8A97B00499B89 /* AGTCoreDataTableViewController.m in Sources */,
 				DF5EF9441E9CD64E00BC8607 /* main.m in Sources */,
 				DF5EF9601E9CDB0900BC8607 /* EverPobreModel.xcdatamodeld in Sources */,
 				DF5EF95D1E9CD69E00BC8607 /* AGTSimpleCoreDataStack.m in Sources */,
 				83D094291E9E909E000C4A8E /* _CCMNote.m in Sources */,
+				8357B71C1EB8F92600499B89 /* CCMNotebookCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +376,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/EverPobre-Prefix.pch";
 				INFOPLIST_FILE = EverPobre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCM.EverPobre;
@@ -331,6 +389,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/EverPobre-Prefix.pch";
 				INFOPLIST_FILE = EverPobre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCM.EverPobre;

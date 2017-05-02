@@ -35,6 +35,9 @@
     if (_context == nil) {
         _context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
         _context.persistentStoreCoordinator = self.storeCoordinator;
+        
+        //Añadir un undo manager
+        _context.undoManager = [[NSUndoManager alloc] init];
     }
     
     return _context;
@@ -176,6 +179,8 @@
         }
     }
 }
+
+
 
 -(NSArray *)executeRequest:(NSFetchRequest *)request
                  withError:(void(^)(NSError *error))errorBlock{

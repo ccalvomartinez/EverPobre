@@ -29,7 +29,7 @@
 CCMPhoto *p = [NSEntityDescription insertNewObjectForEntityForName:[CCMPhoto entityName]
                                             inManagedObjectContext:contexto];
     
-    p.imageData = UIImagePNGRepresentation(image);
+    p.imageData = UIImageJPEGRepresentation(image, 0.9);
     
     
     return p;
